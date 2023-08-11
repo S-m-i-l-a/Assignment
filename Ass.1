@@ -1,18 +1,2 @@
-# Given data: product_id and price in a dictionary
-products = {
-    1: 10.00,
-    2: 15.50,
-    3: 8.75,
-    4: 20.25,
-    5: 12.00
-}
-
-# Calculate the total sum of prices and the total number of products
-total_sum = sum(products.values())
-total_products = len(products)
-
-# Calculate the average price
-average_price = total_sum / total_products
-
-# Print the average price
-print("Average Price:", average_price)
+SELECT AVG(price) AS average_price
+FROM products;
