@@ -1,0 +1,2 @@
+SELECT Title, Author, "Published Year"
+FROM books;
